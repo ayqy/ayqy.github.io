@@ -5,7 +5,7 @@ import {
   length,
   substr,
   toArray
-} from './emoji-utils.js';
+} from 'https://unpkg.com/emoutils/dist/es/emoutils.js';
 
 // export to global
 window.emojiUtil = {
