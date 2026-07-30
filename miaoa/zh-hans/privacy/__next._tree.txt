@@ -1,0 +1,2 @@
+:HL["/miaoa/_next/static/chunks/1-k6nbcbhdpz2.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"zh-hans","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"document","param":{"type":"d","key":"privacy","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"kDBzRRnfwqybHtEWbKJA2"}
