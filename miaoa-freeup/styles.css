@@ -1,0 +1,33 @@
+:root {
+  color-scheme: light dark;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  line-height: 1.6;
+  --page: #f4f8fb;
+  --card: rgba(255, 255, 255, 0.86);
+  --text: #102238;
+  --muted: #526579;
+  --accent: #087ea4;
+  --border: rgba(16, 34, 56, 0.12);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #dff7ff, var(--page) 38rem);
+  color: var(--text);
+}
+main { width: min(880px, calc(100% - 32px)); margin: 0 auto; padding: 64px 0 80px; }
+nav { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 56px; }
+a { color: var(--accent); }
+h1 { font-size: clamp(2.5rem, 8vw, 5rem); line-height: 1.03; margin: 0 0 20px; }
+h2 { margin-top: 40px; }
+.lead { max-width: 720px; color: var(--muted); font-size: 1.22rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 36px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 22px; backdrop-filter: blur(18px); }
+.card h2 { margin-top: 0; }
+.note { border-left: 4px solid var(--accent); padding-left: 16px; color: var(--muted); }
+footer { margin-top: 56px; color: var(--muted); font-size: 0.95rem; }
+@media (prefers-color-scheme: dark) {
+  :root { --page: #07111e; --card: rgba(14, 31, 50, 0.88); --text: #e9f6ff; --muted: #aac0d3; --accent: #62d7ff; --border: rgba(208, 236, 255, 0.14); }
+  body { background: radial-gradient(circle at top, #0d3950, var(--page) 36rem); }
+}
